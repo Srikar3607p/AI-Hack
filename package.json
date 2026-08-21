@@ -1,0 +1,11 @@
+{
+  "name": "civic-aid-master",
+  "version": "1.0.0",
+  "description": "Civic Aid - AI-Powered Civic Complaint-to-Resolution Intelligence Platform",
+  "scripts": {
+    "seed": "cd backend && node src/seed/seeder.js",
+    "backend": "cd backend && node src/server.js",
+    "frontend": "cd frontend && npm run dev",
+    "ai-service": "cd ai-service && python run.py"
+  }
+}
